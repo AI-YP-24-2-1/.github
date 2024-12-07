@@ -11,4 +11,4 @@ year_project_venv/
 .DS_Store
 .ipynb_checkpoints/
 __pycache__/
-
+air_weather_data.csv
