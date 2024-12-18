@@ -69,6 +69,7 @@ class BaseModel:
             self.log(mode, 'Data read')
 
             for column in train_x.columns:
+                ## todo fill nan.
                 median_value = train_x[column].median() if not train_x[column].isna().all() else 0
                 train_x[column] = train_x[column].fillna(median_value)
             self.log(mode, 'np.nan filled')
