@@ -7,3 +7,7 @@ __pycache__/
 *.json
 .DS_Store
 files
+
+air_weather_data.csv
+air_weather_data_transformed_without_pollen.csv
+myenv/
